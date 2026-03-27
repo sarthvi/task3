@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(238, 124, 83);
+}
+/* Changing text color of class head to blue */
+.head{
+    color: blue;
+}
+/* Changing background color of 2nd heading to lime */
+#bglime{
+    background-color: lime;
+}
+/* Changing text color of word head to red */
+.highlight-red{
+    color: red;
+}
+/* Changing text color of paragraph to white */
+p{
+    color:white;
+}
+/* Changing text color of paragraph to green */
+#para{
+    color: green;
+}
+/* Changing text color of word paragraph to black */
+.highlight-black{
+    color: black;
+    font-size:larger;
+}
+/* Changing color of direct child paragraphs to black */
+#directchild > p{
+    color: black;
+}
+/* Changing background color of Upskill Mafia link to yellow */
+a[href="https://upskillmafia.com/"]{
+    background-color: yellow;
+    font-size: larger;
+}
+/* Changing background color of Google link to blue */
+a[href="https://www.google.com/"]{
+    background-color: blue;
+    font-size: larger;
+}
+/* Changing color of 2nd list item to blue */
+ol li:nth-child(2){
+    color: blue;
+}
+/* Changing color of 3rd list item to red */
+ol li:nth-child(3){
+    color: red;
+}
